@@ -1,0 +1,241 @@
+/*skytop style sheet*/
+
+body {
+	font-family:'Raleway', sans-serif;
+	margin: 0;
+  	padding: 0;
+}
+
+a, body, div h1, h2, h3 {
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+h1, h2, h3 {
+	margin-bottom: 5px;
+}
+
+#wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #64c2ff;
+	padding: 32px;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+.header {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	
+}
+
+.main-menu {
+	padding: 5px 0 5px 0;
+	text-align: center;
+	line-height: 32px;
+	background-color: #64c2ff;
+
+}
+
+/*
+nav {
+	height: 40px;
+	background-color: #64c2ff;
+	margin-top: 20px;
+	
+}
+*/
+
+
+ul.main_menu {
+	margin-top: 15px;
+}
+
+.main_menu li {
+	display: inline;
+	padding: 0 10px 0 10px;
+	font-size: 16px;
+}
+
+.main_menu a {
+	color: #fff;
+	text-align: center;
+	padding: 10px, 20px;
+	text-decoration: none;
+	margin: 50px;
+	float: left;
+}
+
+.main_menu a:hover {
+	background-color: #478dbb;
+}
+
+
+/* Make this a slideshow hero 
+.hero {
+	background-image: url("http://poeticedge.com/wp-content/uploads/2016/04/untitled-206-Edit.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+  	background-color: #fff;
+  	background-size: cover;
+  	margin: auto;
+}*/
+
+.transbox {
+	background: #153476;
+	display: block;
+	opacity: 0.8;
+	height: 400px;
+	width: 400px;
+	padding: 20px;
+	margin: auto;
+	z-index: 0;
+
+}
+
+.transbox h2 {
+	color:#fff;
+	padding-left: 15px;
+}
+
+.transbox p {
+	width: 350px;
+	font-size: 16px;
+	line-height: 1.3em;
+	border: 1px white;
+	color: #fff;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 15px
+
+}
+
+.three-cols {
+	display: block;
+	width: 100%;
+	text-align: justify;
+	/*margin: 30px 60px 30px;*/
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+.box {
+	background: #337445;
+	color: #fff;
+	opacity: 0.8;
+	height: 300px;
+	width: 300px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5% 5% 50px 5%;
+	
+}
+
+.box:hover {
+	opacity: 1;
+	-webkit-transition: opacity 400ms ease;
+}
+
+.box img {
+	max-width: 100%;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 876px)
+.box {
+	height: 270px;
+	width: 270px;
+}
+
+.box h3 {
+	font-weight: 700;
+	font-size: 13px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .16em;
+	position: relative;
+	padding-top: 142px;
+	box-sizing: border-box;
+
+}
+
+
+.button {
+	background-color: #4CAF50;
+	border-radius: 2px;
+	border: none;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 100px;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+}
+
+
+/*insert clearfix*/
+
+/*.wrap {
+	@media (min-width:1000px)
+	width: 1000px;
+	position: static;
+	margin: auto;
+	box-sizing: border-box;
+	background-color: white;
+}
+*/
+
+
+footer {
+	background: #337445;
+}
+
+#footer_container {
+	max-width: 1024px;
+	height: 150px;
+	margin: 0, auto;
+	padding-top: 2%;
+}	
+
+.social {
+	list-style-type: none;
+	
+}
+
+.social li a {
+	font-size: 24px;
+	display: inline;
+	float: right;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.social li a:hover {
+	color: #ff7bac;
+}
+
+.copyright-text {
+	font-weight: 400px;
+	padding-top: 2%;
+	float: left;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 0.65em;
+	color: #a3a3a3;
+}
+
