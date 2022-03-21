@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*====================
+Fonts and links
+=====================*/
+.a:link {
+  color:#0000FF;
+}
+
+.a {
+	text-decoration: none;
+}
+
+/*====================
+Navigation style 
+=====================*/
+	.nav-bar {
+		margin-bottom: 0px;
+		height: 85px;
+	}
+
+	.nav-item {
+	  display: block;
+	  color: #7c7e7f;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-family: Lato;
+	  font-size: 1.5rem;
+	}
+
+/* Change the link color on hover */
+	.nav-item:hover {
+	  color: #4499e3;
+	}
+/* Change the link color on click */
+	.nav-item.active {
+	  color: #4499e3;
+	}
+
+.body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+
+}
+
+.main-section {
+    text-align: center;
+	
+}
+.work-section {
+	background-color: #E8C7C8;
+	height: 1000px;
+}
+
+.narrow-container {
+	max-width: 1200px;
+}
+
+.page-footer font-small grey darken-3 {
+    background-color: #F5F5F5;
+    
+}
+.linkedin-icon {
+    color: #585858;
+}
+
+
+
